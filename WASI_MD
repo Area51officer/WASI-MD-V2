@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/Itxxwasi/WASI-MD-V2 /root/Itxxwasi
-WORKDIR /root/Itxxwasi
+RUN git clone https://github.com/Area51officer/WASI-MD-V2 /root/Area51officer
+WORKDIR /root/Area51officer
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
