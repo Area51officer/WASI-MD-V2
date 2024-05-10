@@ -148,7 +148,7 @@ smd({
       if (!_0x557719) {
         return man.reply("Provide me a query ex Who is Suhail");
       }
-      const _0x50c8d3 = await fetch("https://aemt.me/openai?text=" + _0x557719);
+      const _0x50c8d3 = await fetch("https://aemt.me/openai?text=reply+to+me+in+genz+slang,+" + _0x557719);
       const _0x14c9d6 = await _0x50c8d3.json();
       if (_0x14c9d6 && _0x14c9d6.status && _0x14c9d6.result) {
         return await _0x5cb388.reply(_0x14c9d6.result);
